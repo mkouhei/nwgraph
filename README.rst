@@ -2,8 +2,7 @@
  nwgraph
 =========
 
-TODO: Rewrite me. Append your package's long description.
-
+generating network graph libary.
 
 Status
 ======
