@@ -21,8 +21,8 @@ concept
 Input data
 ==========
 
-L2 network
-----------
+L2 data
+-------
 
 as like Linkdraw
 ~~~~~~~~~~~~~~~~
@@ -42,8 +42,8 @@ as like Linkdraw
      ]
    }
 
-L3 network
-----------
+L3 data
+-------
 
 as like Linkdraw
 ~~~~~~~~~~~~~~~~
