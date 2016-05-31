@@ -21,10 +21,8 @@ concept
 Input data
 ==========
 
-
 L2 network
 ----------
-
 
 
 L3 network
@@ -35,8 +33,39 @@ as like Linkdraw
 
 configuration file
 
-.. include:: _static/linkdraw_config.json
+.. code-block:: JavaScript
+
+   {
+     "time": "2016-05-31 17:27:31",
+     "descr": "some description.",
+     "nodeColors": [
+       {"id": "id_string", "descr": "some description", "color": "#ffffff"},
+       ...
+     ],
+     "lineColors": [
+       {"id": "id_string", "descr": "some description", "color": "#ffffff"},
+       ...
+     ],
+     "nodes": [
+       {"name": "name_string", "r": "10", "color": "node_color_id", "link": "http://example.org" },
+       ...
+     ],
+     "lines": [
+       {"source": "some_node_name", "target": "another_node_name", "color": "line_color_id", "width": "1", "descr": "some description", "link": "http://example.net"},
+       ...
+     ]
+   }
 
 position file
 
-.. include:: _static/linkdraw_position.json
+.. code-block:: JavaScript
+
+   {
+     "position": {
+       "some_node_name": {"x": 100, "y": 100},
+       "another_node_name": {"x": 10, "y": 10},
+       ...
+     },
+     "scale": 1,
+     "translate": [0, 0]
+   }
