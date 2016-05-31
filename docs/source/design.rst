@@ -24,6 +24,23 @@ Input data
 L2 network
 ----------
 
+as like Linkdraw
+~~~~~~~~~~~~~~~~
+
+.. code-block:: Javascript
+
+   {
+     "nodes": [
+       {"name": "some_node_name", "ports": [{"name": "1", "vlan": null}, {"name": "2", "vlan": 100}, ...]},
+       {"name": "another_node_name", "ports": [{"name": "en0", "vlan": null}, {"name": "en1", "vlan": 100}, ...]},
+       ...
+     ],
+     "lines": [
+       {"source": {"node": "some_node_name", "port": 1}, "target": {"node": "another_node_name", "port": "en0"}},
+       {"source": {"node": "some_node_name", "port": 2}, "target": {"node": "another_node_name", "port": "en1"}},
+       ...
+     ]
+   }
 
 L3 network
 ----------
