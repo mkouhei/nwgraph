@@ -53,8 +53,7 @@ long_description = (
     read_content("README.rst") +
     read_content(os.path.join("docs/source", "CHANGELOG.rst")))
 
-requires = ['setuptools',
-            'networkx']
+requires = ['setuptools']
 
 extras_require = {
     'reST': ['Sphinx'],
