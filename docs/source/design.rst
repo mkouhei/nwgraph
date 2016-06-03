@@ -16,7 +16,10 @@ concept
   
     * includes L2 switch ports wired conectivity.
 
-* Enable to embed web application.
+* Embed to HTML.
+
+  * Web application.
+  * Sphinx.
 
 Input data
 ==========
