@@ -56,7 +56,8 @@ long_description = (
 requires = ['setuptools']
 
 extras_require = {
-    'reST': ['Sphinx'],
+    'reST': ['Sphinx'
+             'sphinxcontrib-blockdiag'],
     }
 if os.environ.get('READTHEDOCS', None):
     extras_require['reST'].append('recommonmark')

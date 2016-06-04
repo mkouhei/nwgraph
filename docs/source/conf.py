@@ -33,6 +33,7 @@
 extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.viewcode',
+    'sphinxcontrib.blockdiag',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -334,3 +335,6 @@ texinfo_documents = [
 # If true, do not generate a @detailmenu in the "Top" node's menu.
 #
 # texinfo_no_detailmenu = False
+
+blockdiag_fontpath = '/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf'
+blockdiag_html_image_format = 'SVG'
